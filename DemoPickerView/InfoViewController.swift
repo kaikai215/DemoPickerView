@@ -6,24 +6,34 @@
 //
 
 import UIKit
+import MapKit
+
+
+
+
 
 class InfoViewController: UIViewController {
 
+    var item: ParkItem?
+    
+    @IBOutlet weak var payexLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    
+    @IBOutlet weak var telLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        showLabel()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func showLabel(){
+        if let item {
+            payexLabel.text = item.payex
+            addressLabel.text =  "地址：" + item.address
+            telLabel.text = "電話：" + item.tel
+        }
     }
-    */
-
+    
 }

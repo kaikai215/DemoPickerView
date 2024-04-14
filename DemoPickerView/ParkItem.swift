@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+struct ParkDate: Codable{
+    let data: SearchPark
+}
+
+
+struct SearchPark: Codable{
+    let park: [ParkItem]
+}
+
+struct ParkItem:Codable{
+    let area: String
+    let name: String
+    let address: String
+    let payex: String
+    let tel: String
+}
+

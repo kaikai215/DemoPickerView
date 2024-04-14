@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94022E602BCA26840061EC7D /* ParkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94022E5F2BCA26840061EC7D /* ParkItem.swift */; };
+		94022E622BCA2F0D0061EC7D /* ParkingLotsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94022E612BCA2F0D0061EC7D /* ParkingLotsTableViewController.swift */; };
+		94022E642BCA37940061EC7D /* ParkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94022E632BCA37940061EC7D /* ParkTableViewCell.swift */; };
+		94022E682BCA51E50061EC7D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94022E672BCA51E50061EC7D /* InfoViewController.swift */; };
 		94292D3A2BC8FF6700D70ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94292D392BC8FF6700D70ABB /* AppDelegate.swift */; };
 		94292D3C2BC8FF6700D70ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94292D3B2BC8FF6700D70ABB /* SceneDelegate.swift */; };
 		94292D3E2BC8FF6700D70ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94292D3D2BC8FF6700D70ABB /* ViewController.swift */; };
 		94292D412BC8FF6700D70ABB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94292D402BC8FF6700D70ABB /* Base */; };
 		94292D432BC8FF6800D70ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94292D422BC8FF6800D70ABB /* Assets.xcassets */; };
 		94292D462BC8FF6800D70ABB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94292D452BC8FF6800D70ABB /* Base */; };
+		943A42B52BCB7AE3000A5E4D /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 943A42B42BCB7AE3000A5E4D /* ChenYuluoyan-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94022E5F2BCA26840061EC7D /* ParkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkItem.swift; sourceTree = "<group>"; };
+		94022E612BCA2F0D0061EC7D /* ParkingLotsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotsTableViewController.swift; sourceTree = "<group>"; };
+		94022E632BCA37940061EC7D /* ParkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkTableViewCell.swift; sourceTree = "<group>"; };
+		94022E672BCA51E50061EC7D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		94292D362BC8FF6700D70ABB /* DemoPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94292D392BC8FF6700D70ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94292D3B2BC8FF6700D70ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		94292D422BC8FF6800D70ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94292D452BC8FF6800D70ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94292D472BC8FF6800D70ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943A42B42BCB7AE3000A5E4D /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		94292D382BC8FF6700D70ABB /* DemoPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				943A42B42BCB7AE3000A5E4D /* ChenYuluoyan-Thin.ttf */,
 				94292D392BC8FF6700D70ABB /* AppDelegate.swift */,
 				94292D3B2BC8FF6700D70ABB /* SceneDelegate.swift */,
 				94292D3D2BC8FF6700D70ABB /* ViewController.swift */,
+				94022E612BCA2F0D0061EC7D /* ParkingLotsTableViewController.swift */,
+				94022E672BCA51E50061EC7D /* InfoViewController.swift */,
+				94022E5F2BCA26840061EC7D /* ParkItem.swift */,
+				94022E632BCA37940061EC7D /* ParkTableViewCell.swift */,
 				94292D3F2BC8FF6700D70ABB /* Main.storyboard */,
 				94292D422BC8FF6800D70ABB /* Assets.xcassets */,
 				94292D442BC8FF6800D70ABB /* LaunchScreen.storyboard */,
@@ -127,6 +142,7 @@
 			files = (
 				94292D432BC8FF6800D70ABB /* Assets.xcassets in Resources */,
 				94292D462BC8FF6800D70ABB /* Base in Resources */,
+				943A42B52BCB7AE3000A5E4D /* ChenYuluoyan-Thin.ttf in Resources */,
 				94292D412BC8FF6700D70ABB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				94292D3E2BC8FF6700D70ABB /* ViewController.swift in Sources */,
+				94022E622BCA2F0D0061EC7D /* ParkingLotsTableViewController.swift in Sources */,
 				94292D3A2BC8FF6700D70ABB /* AppDelegate.swift in Sources */,
+				94022E682BCA51E50061EC7D /* InfoViewController.swift in Sources */,
+				94022E642BCA37940061EC7D /* ParkTableViewCell.swift in Sources */,
+				94022E602BCA26840061EC7D /* ParkItem.swift in Sources */,
 				94292D3C2BC8FF6700D70ABB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

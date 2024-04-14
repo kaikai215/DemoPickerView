@@ -8,7 +8,8 @@
 import UIKit
 
 class ParkTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var parkNameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
